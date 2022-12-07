@@ -59,8 +59,8 @@ int main(void)
   // ...
   // ...
   cudaMallocManaged(&x, N*N*sizeof(double));
-  cudaMallocManaged(&y, N*sizeof(double));
-  cudaMallocManaged(&ans, N*sizeof(double));
+  cudaMallocManaged(&y, N*N*sizeof(double));
+  cudaMallocManaged(&ans, N*N*sizeof(double));
 
   // ..........................................................................
   // initialize x,y and ans arrays on the host
