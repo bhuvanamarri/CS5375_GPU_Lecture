@@ -23,7 +23,7 @@ int indexy=threadIdx.y;
 int stridex= blockDim.x;
 int stridey= blockDim.y;
   for(int i = indexx; i < N; i+=stridex) {
-    for(int j = indexy; j < N; j+stridey) {
+    for(int j = indexy; j < N; j+=stridey) {
       for(int k = 0; k < N; k++) {
         ans[i*N+j] += (x[i*N+k] * y[k*N+j]);
       }
