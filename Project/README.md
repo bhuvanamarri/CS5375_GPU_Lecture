@@ -3,10 +3,11 @@ Matrix Multiplication Kernel
 
 **Texas Tech University, CS5375 Computer Systems Organization and Architecture, Project**
 
-* (TODO) YOUR NAME HERE
-  * (TODO) R# HERE.
-  * (TODO) TTU e-mail HERE.
+*Bhuvana Keerthi Marri
+  * R# 11779544.
+  * TTU e-mail: bmarri@ttu.edu.
 
-### (TODO: Your README)
+### Analysis of all the Parts of the Programming Project
+
 
 Include comments and analysis, etc.
